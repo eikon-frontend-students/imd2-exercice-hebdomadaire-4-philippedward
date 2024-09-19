@@ -12,3 +12,144 @@ img,
 video {
   display: block;
 }
+
+body {
+  display: flex;
+  width: 1728px;
+  height: 1117px;
+  padding: 50px 1306px 901px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #fff;
+}
+
+h1 {
+  color: #000;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  width: 100px;
+}
+
+p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.pourcent-1,
+.pourcent-2,
+.pourcent-3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.pourcentage {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.jaune-1 {
+  display: flex;
+  width: 195px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  background: #ffcc2f;
+}
+
+.bleu-1 {
+  display: flex;
+  width: 105px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 10px 10px 0px;
+  background: #37d3d2;
+}
+
+.jaune-2 {
+  display: flex;
+  width: 153px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  background: #ffcc2f;
+}
+
+.bleu-2 {
+  display: flex;
+  width: 147px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 10px 10px 0px;
+  background: #37d3d2;
+}
+
+.jaune-3 {
+  display: flex;
+  width: 123px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  background: #ffcc2f;
+}
+
+.bleu-3 {
+  display: flex;
+  width: 177px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 10px 10px 0px;
+  background: #37d3d2;
+}
+
+.entier {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+h2 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.nom {
+  display: flex;
+  width: 422px;
+  padding: 20px 0px 20px 120px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.jaune,
+.bleu {
+  width: 16px;
+  height: 16px;
+}
+
+.jaune {
+  background: #ffcc2f;
+}
+
+.bleu {
+  background: #37d3d2;
+}
